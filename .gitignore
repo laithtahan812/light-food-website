@@ -13,9 +13,9 @@ backend/dist/
 backend/.env
 frontend/.env
 
-# database / local data
-backend/data/
-backend/data/app.db
+# database: keep folder, ignore db file
+backend/data/*
+!backend/data/.gitkeep
 
 # logs
 npm-debug.log*
